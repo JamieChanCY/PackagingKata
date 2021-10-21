@@ -20,7 +20,7 @@ print(t, p)
 # print the spearman correlation statistic and pvalue between the two groups
 from correlation import correlation_statistic
 from correlation_pvalue import correlation_pvalue
-r = correlation_statistic(group1, group2, kind = 'spearman')
+r = correlation_statistic(group1, group2, 'spearman')
 p = correlation_pvalue(group1, group2, 'spearman')
 print(r, p)
 
