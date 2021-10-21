@@ -8,7 +8,7 @@ working up to buliding a Python package that can be installed and imported from 
 
 ### 1. Write the Script 
 
-Follow the directions in `scripts\compute_norm_stats.py`, leaving the modules in the project root directory alone
+Follow the directions in `compute_norm_stats.py`, leaving the modules in the project root directory alone
 
 *Tip*: To get the script to import the modules, set the working directory to the project root directory.
 
@@ -34,3 +34,4 @@ from stats_utils import scatter_plot, generate_random_normal
 
 ### 3. Make a `setup.py` file that can install the `stats_utils` package.
 
+(will do together)
